@@ -55,3 +55,4 @@ end
 require_relative 'messages/pass_message'
 require_relative 'messages/nick_message'
 require_relative 'messages/user_message'
+require_relative 'messages/join_message'
