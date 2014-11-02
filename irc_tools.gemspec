@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["markglenfletcher@googlemail.com"]
   spec.summary       = %q{TODO}
   spec.description   = %q{TODO}
-  spec.homepage      = "TODO"
+  spec.homepage      = "https://github.com/markglenfletcher/irc_tools"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
