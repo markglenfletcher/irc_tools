@@ -53,3 +53,4 @@ module IrcTools
 end
 
 require_relative 'messages/pass_message'
+require_relative 'messages/nick_message'
