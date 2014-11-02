@@ -8,7 +8,7 @@ module IrcTools
     protected
 
     def build_message
-      "PONG #{server}".strip
+      "PONG :#{server}".strip
     end
   end
 end
