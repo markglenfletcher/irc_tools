@@ -20,7 +20,7 @@ module IrcTools
 
     def self.validate_message(message)
       MessageTypes.constants.map do |message_regexp|
-        Message.message_matches(message_regexp, message)
+      Message.message_matches(message_regexp, message)
       end.compact.first
     end
 
@@ -57,3 +57,5 @@ require_relative 'messages/nick_message'
 require_relative 'messages/user_message'
 require_relative 'messages/join_message'
 require_relative 'messages/pong_message'
+require_relative 'messages/privmsg_message'
+
