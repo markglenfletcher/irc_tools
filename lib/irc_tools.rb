@@ -1,5 +1,3 @@
 require "irc_tools/version"
-
-module IrcTools
-  # Your code goes here...
-end
+require "irc_tools/message"
+require "irc_tools/message_type"
