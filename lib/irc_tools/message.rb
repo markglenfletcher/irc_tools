@@ -58,4 +58,5 @@ require_relative 'messages/user_message'
 require_relative 'messages/join_message'
 require_relative 'messages/pong_message'
 require_relative 'messages/privmsg_message'
+require_relative 'messages/quit_message'
 
