@@ -8,7 +8,9 @@ module IrcTools
     protected
 
     def build_message
-      "PONG :#{server}".strip
+      message = "PONG"
+      message << " :#{server.chomp}" if server
+      message
     end
   end
 end
